@@ -1,4 +1,4 @@
-def greeting 
+def greeting(name)
 "Hello,#{name}!"
 "Good morning, #{name}!"
 
