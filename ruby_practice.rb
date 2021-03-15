@@ -1,11 +1,10 @@
-score = 65
+ojisan = "男"
+age = 40
 
-if score >= 80
-  p "合格点です"
-
-elsif score >= 70
-  p "惜しい"
-
+if ojisan == "男"
+  if 35 <= age && age < 50
+    p "中年のおっさんです"
+  end
 else
-  p "頑張りましょう"
+  p "女性です"
 end
