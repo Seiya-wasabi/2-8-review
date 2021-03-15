@@ -1,10 +1,5 @@
-ojisan = "男"
-age = 40
+arr = ["Ruby", "PHP"]
+p arr [0]
 
-if ojisan == "男"
-  if 35 <= age && age < 50
-    p "中年のおっさんです"
-  end
-else
-  p "女性です"
-end
+arr = {"key1" => "Ruby", "key2" => "PHP"}
+p arr ["key1"]
