@@ -1,5 +1,7 @@
 def greeting 
-'Hello'
+"Hello,#{name}!"
+"Good morning, #{name}!"
+
 end
 
-puts greeting
+puts greeting ('John')
