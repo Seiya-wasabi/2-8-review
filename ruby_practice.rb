@@ -1,3 +1,4 @@
-program = "ruby"
+i = 7
+a = "Ruby"
 
-p program + "入門講座"
+p "第#{i}回#{a}入門講座"
