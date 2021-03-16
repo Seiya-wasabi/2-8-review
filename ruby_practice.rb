@@ -1,5 +1,7 @@
-arr = ["Ruby", "PHP", "Python"]
-arr.each do |lang|
-  next if lang == "PHP"
-  p lang
-end
+def study(lang)
+  p "#{lang}入門"
+  p "#{lang}入門"
+end 
+
+study("Ruby")
+study("PHP")
