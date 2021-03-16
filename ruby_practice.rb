@@ -1,7 +1,6 @@
-def say_age(me="私",age=30)
-  p "#{me}は#{age}才です"
+def say_age(age: 30)
+  p age
 end
 
-say_age(nil,20)
+say_age(age: 20)
 say_age
-say_age("君",15)
