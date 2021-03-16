@@ -1,6 +1,4 @@
-def say_age(age: 30)
-  p age
-end
+name = "佐藤誠也"
+age = 24
 
-say_age(age: 20)
-say_age
+puts ("私の名前は#{name}です。年齢は#{age.to_s}歳です")
