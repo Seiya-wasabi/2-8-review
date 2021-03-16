@@ -1,7 +1,7 @@
-def study(lang)
-  p "#{lang}入門"
-  p "#{lang}入門"
-end 
+def ask
+  p "質問はYouTubeコメント欄へ"
+end
 
-study("Ruby")
-study("PHP")
+def say_age(me,age)
+  p "#{me}は#{age}才です"
+end
