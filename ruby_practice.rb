@@ -6,18 +6,19 @@
 # それ以外の数値は、その数値を文字列に変えて返す
 
 def number (input)
-  "結果は..#{input}です！"
+  return "結果は..#{input}です！"
 
 puts "数字を入力してください"
 a = gets.to_i
 
-if a % 3 = 0
-  puts number (Fizz)
+if a % 3 == 0
+  "Fizz"
   
-elsif a % 5 = 0
-  puts number (Buzz)
+elsif a % 5 == 0
+  "Buzz"
   
-elsif a % 3 = 0 && a % 5 = 0
-  puts number (FizzBuzz)
+elsif a % 3 == 0 && a % 5 == 0
+  "FizzBuzz"
+  
 end
 end
