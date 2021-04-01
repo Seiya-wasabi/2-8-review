@@ -1,1 +1,1 @@
-puts "WECCAMP".length
+puts "WEBCAMP".length

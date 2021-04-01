@@ -1,1 +1,1 @@
-puts "DMMWEBCAMP".reverse
+puts "WEBCAMP".reverse
