@@ -1,2 +1,2 @@
-names = ["Git","HTML","CSS"]
-puts names[1]
+names = ["Git", "HTML", "css"]
+puts names[2]
