@@ -1,22 +1,16 @@
-def fizz_buzz(number)
-  if number % 15 == 0
-    "FizzBuzz"
-  
-  elsif number % 3 == 0
-    "Fizz"
-  elsif number % 5 == 0
-    "Buzz"
-  
-  else
-    number.to_s
-  end
-  # ここに処理
-end
-
 puts "数字を入力してください"
 
-input = gets.to_i
+a = gets.to_i
 
-puts "結果は..."
+if a % 3 == 0 && a % 5 == 0
+  puts "FizzBuzz"
+  
+elsif a % 3 == 0
+  puts "Fizz"
 
-puts fizz_buzz(input)
+elsif a % 5 == 0
+  puts "buzz"
+    
+else
+  puts "#{a}"
+end
